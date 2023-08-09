@@ -1,0 +1,14 @@
+@import "../common/variable.module.scss";
+
+.container {
+  background-color: $Black;
+  height: fit-content;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.offers {
+  font-size: 14px;
+  color: $White;
+}

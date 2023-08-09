@@ -1,0 +1,42 @@
+@import "../common/variable.module.scss";
+
+.container {
+  padding: 0 5px;
+  margin: 0 5px;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+  box-shadow: 0 8px 6px -6px gray;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0px solid gray;
+}
+
+.logo {
+  padding: 10px;
+  & > img {
+    width: 150px;
+  }
+}
+.navMenu {
+  & > ul {
+    list-style: none;
+    display: flex;
+
+    .link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .navItem {
+      margin: 10px;
+      padding: 10px;
+    }
+    .navItem:hover {
+      border-bottom: 1px solid red;
+    }
+  }
+}
